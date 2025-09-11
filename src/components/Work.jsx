@@ -27,24 +27,6 @@ const works = [
     tags: ['AI', 'Development'],
     projectLink: 'https://pixstock-official.vercel.app/'
   },
-  {
-    imgSrc: '/images/project-coming.jpg',
-    title: 'Project in progress',
-    tags: ['Coming soon'],
-    projectLink: ''
-  },
-  {
-    imgSrc: '/images/project-coming.jpg',
-    title: 'Project in progress',
-    tags: ['Coming soon'],
-    projectLink: 'https://github.com/kikoNassif'
-  },
-  {
-    imgSrc: '/images/project-coming.jpg',
-    title: 'Project in progress',
-    tags: ['Coming soon'],
-    projectLink: 'https://github.com/kikoNassif'
-  },
 ];
 
 
