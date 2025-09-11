@@ -10,6 +10,12 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: '/images/hirely-ui-mockup.png',
+    title: 'Hirely Job Portal app',
+    tags: ['FullStack','API', 'MVC', 'Development'],
+    projectLink: 'https://hirely-job-portal.netlify.app/'
+  },
+  {
     imgSrc: '/images/project-1.jpg',
     title: 'Movie database app',
     tags: ['API', 'MVC', 'Development'],
@@ -26,12 +32,6 @@ const works = [
     title: 'Project in progress',
     tags: ['Coming soon'],
     projectLink: ''
-  },
-  {
-    imgSrc: '/images/project-coming.jpg',
-    title: 'Project in progress',
-    tags: ['Coming soon'],
-    projectLink: 'https://github.com/kikoNassif'
   },
   {
     imgSrc: '/images/project-coming.jpg',
