@@ -16,6 +16,12 @@ const works = [
     projectLink: 'https://hirely-job-portal.netlify.app/'
   },
   {
+    imgSrc: '/images/spendly-ui-mockup.png',
+    title: 'Spendly Expense Tracker app',
+    tags: ['FullStack','API', 'MVC', 'Development','Finance'],
+    projectLink: 'https://spendly-expense-tracker.netlify.app/'
+  },
+  {
     imgSrc: '/images/project-1.jpg',
     title: 'Movie database app',
     tags: ['API', 'MVC', 'Development'],
