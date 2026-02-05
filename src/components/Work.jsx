@@ -13,7 +13,7 @@ const works = [
     imgSrc: '/images/mindbrief-ui-mockup.png',
     title: 'MindBrief AI Learning app',
     tags: ['FullStack','API', 'MVC', 'Development', 'AI'],
-    projectLink: ''
+    projectLink: 'https://github.com/kikoNassif/MindBrief'
   },
   {
     imgSrc: '/images/hirely-ui-mockup.png',
