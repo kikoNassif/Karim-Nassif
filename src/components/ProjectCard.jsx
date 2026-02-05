@@ -7,12 +7,15 @@
  * Node Modules
  */
 import PropTypes from "prop-types";
+import { SiGithub } from "react-icons/si";
+
 
 const ProjectCard = ({
   imgSrc,
   title,
   tags,
   projectLink,
+  githubLink,
   classes
 }) => {
   return (
@@ -55,10 +58,26 @@ const ProjectCard = ({
           </span>
         </div>
 
+        <a
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-11 h-11 rounded-lg grid place-items-center bg-zinc-700 text-zinc-200 hover:bg-zinc-600 transition shrink-0 z-10"
+        >
+          <SiGithub className="w-5 h-5" />
+        </a>
+
+
       </div>
 
       <a 
         href={projectLink}
+        target='_blank'
+        className="absolute inset-0"
+      ></a>
+
+      <a 
+        href={githubLink}
         target='_blank'
         className="absolute inset-0"
       ></a>
@@ -72,6 +91,7 @@ ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
   tags: PropTypes.array.isRequired,
   projectLink: PropTypes.string.isRequired,
+  githubLink: PropTypes.string.isRequired,
   classes: PropTypes.string
 }
 
