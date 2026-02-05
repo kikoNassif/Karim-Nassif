@@ -60,13 +60,14 @@ const Work = () => {
         </h2>
 
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-          {works.map(({ imgSrc, title, tags, projectLink }, key) => (
+          {works.map(({ imgSrc, title, tags, projectLink,githubLink }, key) => (
             <ProjectCard 
               key={key}
               imgSrc={imgSrc}
               title={title}
               tags={tags}
               projectLink={projectLink}
+              githubLink={githubLink}
               classes="reveal-up"
             />
           ))}

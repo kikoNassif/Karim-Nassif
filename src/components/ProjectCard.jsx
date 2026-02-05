@@ -49,14 +49,19 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0">
+        <a
+          href={projectLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 hover:bg-sky-500 transition shrink-0 z-10"
+        >
           <span 
           className="material-symbols-rounded"
           aria-hiden="true"
           >
             arrow_outward
           </span>
-        </div>
+        </a>
 
         <a
           href={githubLink}
@@ -69,18 +74,6 @@ const ProjectCard = ({
 
 
       </div>
-
-      <a 
-        href={projectLink}
-        target='_blank'
-        className="absolute inset-0"
-      ></a>
-
-      <a 
-        href={githubLink}
-        target='_blank'
-        className="absolute inset-0"
-      ></a>
 
     </div>
   )
