@@ -20,25 +20,29 @@ const works = [
     imgSrc: '/images/hirely-ui-mockup.png',
     title: 'Hirely Job Portal app',
     tags: ['FullStack','API', 'MVC', 'Development'],
-    projectLink: 'https://hirely-job-portal.netlify.app/'
+    projectLink: 'https://hirely-job-portal.netlify.app/',
+    githubLink: 'https://github.com/kikoNassif/hirely'
   },
   {
     imgSrc: '/images/spendly-ui-mockup.png',
     title: 'Spendly Expense Tracker app',
     tags: ['FullStack','API', 'MVC', 'Development','Finance'],
-    projectLink: 'https://spendly-expense-tracker.netlify.app/'
-  },
-  {
-    imgSrc: '/images/project-1.jpg',
-    title: 'Movie database app',
-    tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://karims-movie-vault.netlify.app/'
+    projectLink: 'https://spendly-expense-tracker.netlify.app/',
+    githubLink: 'https://github.com/kikoNassif/spendly'
   },
   {
     imgSrc: '/images/project-2.jpg',
     title: 'AI image classifier app',
     tags: ['AI', 'Development'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    projectLink: 'https://pixstock-official.vercel.app/',
+    githubLink: 'https://github.com/kikoNassif/ImageClassifier'
+  },
+  {
+    imgSrc: '/images/project-1.jpg',
+    title: 'Movie database app',
+    tags: ['API', 'MVC', 'Development'],
+    projectLink: 'https://karims-movie-vault.netlify.app/',
+    githubLink: 'https://github.com/kikoNassif/movie_app'
   },
 ];
 
