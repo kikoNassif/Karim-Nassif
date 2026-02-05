@@ -34,7 +34,7 @@ const works = [
     imgSrc: '/images/project-2.jpg',
     title: 'AI image classifier app',
     tags: ['AI', 'Development'],
-    projectLink: 'https://pixstock-official.vercel.app/',
+    projectLink: 'https://github.com/kikoNassif/ImageClassifier',
     githubLink: 'https://github.com/kikoNassif/ImageClassifier'
   },
   {
