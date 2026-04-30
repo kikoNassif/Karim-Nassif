@@ -10,6 +10,13 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: '/images/neural-chef-ui-mockup.png',
+    title: 'NeuralChef AI Cooking app',
+    tags: ['FullStack','API', 'MVC', 'Development', 'AI'],
+    projectLink: 'https://github.com/kikoNassif/Neural-Chef',
+    githubLink: 'https://github.com/kikoNassif/Neural-Chef'
+  },
+  {
     imgSrc: '/images/mindbrief-ui-mockup.png',
     title: 'MindBrief AI Learning app',
     tags: ['FullStack','API', 'MVC', 'Development', 'AI'],
